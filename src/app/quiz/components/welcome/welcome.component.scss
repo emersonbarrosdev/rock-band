@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.example-card {
+  width: 500px;
+  max-width: 600px;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+mat-card-header {
+  justify-content: center;
+
+  mat-card-title {
+    font-size: 2.2rem;
+    color: #ff0000;;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+}
+
+mat-card-subtitle {
+  font-size: 1.2rem;
+  margin: 30px 0px 5px 0px;
+}
+
+p {
+  margin: 5px 0px 30px 0px;
+}
+
+mat-form-field {
+  width: 470px;
+}
+
+button {
+  margin-bottom: 30px;
+}
+
+.mat-mdc-raised-button.mat-primary {
+  --mdc-protected-button-container-color: #ff0000;
+}

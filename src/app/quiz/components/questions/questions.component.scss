@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.example-card {
+  width: 500px;
+  max-width: 600px;
+}
+
+.example-card-finish {
+  padding: 50px 50px;
+}
+
+mat-card-header {
+  background-color: #ff0000;;
+  color: #fff;
+  margin-bottom: 20px;
+
+  mat-card-title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  span {
+    font-weight: 500;
+  }
+}
+
+mat-divider {
+  border: 1px solid #ff0000;;
+}
+
+mat-card-content {
+  mat-card-title {
+    font-size: 1.1rem;
+    margin: 10px 0px;
+
+    span {
+      color: #ff0000;
+    }
+  }
+}
+
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+li .card:hover {
+  border: 1px solid #3f51b5;
+}
+
+ol {
+  padding: 0;
+}
+
+h1 {
+  color: #ff0000;
+  font-size: 3rem;
+  margin: 10px 0px;
+  font-weight: 100;
+}
+
+Label {
+  font-size: 1.2rem;
+}
+
+.span-resp {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.mat-mdc-raised-button.mat-primary {
+  --mdc-protected-button-container-color: #ff0000;
+}
